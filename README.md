@@ -18,10 +18,20 @@ Website ini menampilkan interaksi sederhana menggunakan **JavaScript**, dengan d
 ## 🖼️ Tampilan Website
 
 Berikut hasil tampilan website setelah dijalankan di browser:
+- Tampilan Pertama yang memperlihatkan nama
 
 ![Tampilan 1](./assets/screenshot1.png)
+
+- Tampilan kedua yang memperlihatkan button
+  
 ![Tampilan 2](./assets/screenshot2.png)
+
+- Tampilan ketiga ketika di tekan button pesan motivasi
+  
 ![Tampilan 3](./assets/screenshot3.png)
+
+- Tampian keempat ketika di tekan button tampilan waktu
+  
 ![Tampilan 4](./assets/screenshot4.png)
 
 ## 👩‍💻 Pembuat
