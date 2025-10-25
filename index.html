@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fahmi Fauziah Nur Fadillah</title>
+
+    <style>
+        /* ==== STYLE DASAR ==== */
+        body {
+            font-family: "Poppins", sans-serif;
+            background: linear-gradient(135deg, #ffc8dd, #bde0fe); /* pink pastel ke biru pastel */
+            color: #333;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+        }
+
+        header {
+            background-color: rgba(255, 255, 255, 0.7);
+            padding: 25px;
+            border-bottom: 3px solid #a2d2ff;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+        }
+
+        h1 {
+            color: #5c6bc0;
+            font-size: 2.3rem;
+        }
+
+        h2 {
+            color: #f06292;
+            font-weight: 500;
+            font-size: 1.3rem;
+        }
+
+        section {
+            max-width: 800px;
+            margin: 50px auto;
+            background-color: rgba(255, 255, 255, 0.85);
+            border-radius: 20px;
+            padding: 40px;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+        }
+
+        p {
+            text-align: justify;
+            line-height: 1.8;
+            margin-bottom: 20px;
+        }
+
+        .button-container {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            margin-top: 20px;
+        }
+
+        button {
+            border: none;
+            padding: 12px 28px;
+            border-radius: 30px;
+            font-size: 1rem;
+            cursor: pointer;
+            font-weight: 500;
+            transition: all 0.3s ease;
+        }
+
+        .btn-pink {
+            background-color: #ffb6b9;
+            color: white;
+        }
+
+        .btn-blue {
+            background-color: #a2d2ff;
+            color: white;
+        }
+
+        button:hover {
+            opacity: 0.85;
+            transform: scale(1.05);
+        }
+
+        #tanggal {
+            margin-top: 20px;
+            font-weight: bold;
+            color: #555;
+        }
+
+        footer {
+            margin-top: 40px;
+            padding: 10px;
+            font-size: 0.9rem;
+            color: #777;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- === HEADER === -->
+    <header>
+        <h1>Fahmi Fauziah Nur Fadillah</h1>
+        <h2>Selamat Datang di Website E-Learning IT 🌸</h2>
+    </header>
+
+    <!-- === ISI KONTEN === -->
+    <section>
+        <p>Hai semuanya! 👋 Aku <b>Fahmi Fauziah Nur Fadillah</b>, dan ini adalah website kecilku yang kuberi nama <b>E-Learning IT</b>. Halaman ini aku buat untuk membagikan semangat dan rasa ingin tahu tentang dunia teknologi informasi dunia yang terus berubah dan berkembang setiap harinya.</p>
+
+        <p>Seiring perkembangan zaman, teknologi kini bukan lagi sekadar alat bantu, tapi sudah menjadi bagian dari kehidupan kita. Mulai dari membuka ponsel di pagi hari, memeriksa pesan, belajar secara daring, hingga berbelanja dan bekerja semua dilakukan berkat teknologi. Di sinilah ilmu IT berperan penting, menghubungkan manusia dengan dunia digital yang begitu luas.</p>
+
+        <p>Belajar IT bukan hanya tentang mengetik kode, tapi juga tentang berpikir kritis, menyelesaikan masalah, dan menciptakan solusi nyata. Dengan memahami dasar-dasar teknologi, kita bisa beradaptasi lebih cepat, bekerja lebih efisien, dan tentu saja, membuka banyak peluang baru di masa depan. Dunia IT mengajarkan kita untuk tidak berhenti belajar, karena setiap hari selalu ada hal baru yang bisa dieksplor.</p>
+
+        <p>Aku percaya bahwa ilmu adalah investasi terbaik dalam hidup. Mungkin hari ini kamu baru belajar tentang HTML, atau baru memahami bagaimana jaringan bekerja, tapi percayalah setiap langkah kecil itu akan membawamu ke arah yang lebih besar. Dunia IT penuh warna dan tak terbatas, dan setiap orang punya kesempatan untuk bersinar di dalamnya. ✨</p>
+
+        <p>Jadi, yuk mulai perjalananmu di dunia IT! Jangan takut mencoba hal baru, jangan malu untuk belajar dari kesalahan, dan jangan pernah berhenti bermimpi. Karena dari hal-hal kecil seperti website ini, masa depan besar bisa dimulai. 💻🌈</p>
+
+        <!-- Dua Tombol Interaktif -->
+        <div class="button-container">
+            <button class="btn-pink" onclick="tampilkanPesan()">Pesan Motivasi 🌸</button>
+            <button class="btn-blue" onclick="tampilkanWaktu()">Tampilkan Waktu ⏰</button>
+        </div>
+
+        <!-- Area untuk menampilkan tanggal -->
+        <p id="tanggal"></p>
+    </section>
+
+    <!-- === SCRIPT JAVASCRIPT === -->
+    <script>
+        // Fungsi menampilkan pesan motivasi
+        function tampilkanPesan() {
+            alert("Semoga ilmu IT yang kamu pelajari hari ini bermanfaat dan menjadi langkah menuju masa depan yang cerah! 💕💻");
+        }
+
+        // Fungsi menampilkan waktu saat ini
+        function tampilkanWaktu() {
+            const waktuSekarang = new Date();
+            document.getElementById("tanggal").innerHTML = 
+                "⏰ Sekarang: " + waktuSekarang.toLocaleString("id-ID");
+        }
+    </script>
+
+    <!-- === FOOTER === -->
+    <footer>
+        <p>© 2025 - Dibuat oleh Fahmi Fauziah Nur Fadillah 🌸</p>
+    </footer>
+</body>
+</html>
